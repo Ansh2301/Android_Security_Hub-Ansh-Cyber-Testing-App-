@@ -61,7 +61,7 @@ UI State Synchronization
   * Solution: Used `LaunchedEffect(Unit)` to trigger a single high-accuracy check upon screen entry, reducing unnecessary background polling.
 
 ⚙️ How to Run
-1.  Clone: `git clone https://github.com/YOUR_USERNAME/AnshCybersecurityApp.git`
+1.  Clone: `https://github.com/Ansh2301/Android_Security_Hub-Ansh-Cyber-Testing-App-`
 2.  Sync: Open in Android Studio and Sync Gradle.
 3.  Deploy: Run on an emulator or physical device (API 24+).
 4.  APK: A pre-compiled debug APK is available in the [Releases] (https://github.com/Ansh2301/Android_Security_Hub-Ansh-Cyber-Testing-App-) section.
