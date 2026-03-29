@@ -67,19 +67,27 @@ UI State Synchronization
 
 📸 App Screenshots
 
+📸 App Gallery
+<details>
+<summary><b>Click to view app screenshots</b></summary>
+
 <p align="center">
-  <img src="![WhatsApp Image 2026-03-30 at 1 28 15 AM](https://github.com/user-attachments/assets/a79f1763-30a3-4653-9bfc-95248d9b7746)
-" width="180" alt="Dashboard" />
-  <img src="https://github.com/user-attachments/assets/483378ad-3bee-4b0f-a421-90aab591c8ac" width="180" alt="Permissions 1" />
-  <img src="https://github.com/user-attachments/assets/080b2953-175f-4419-8d09-9965d1c2c2c4" width="180" alt="Permissions 2" />
-  <img src="https://github.com/user-attachments/assets/a03dd36e-689c-4146-97e4-24c55f0e0c9e" width="180" alt="Network Status" />
+<img src="https://github.com/user-attachments/assets/a5a857fa-8d75-464a-ab47-4c8058d49bcc" width="220" alt="Dashboard" />
+<img src="https://github.com/user-attachments/assets/6685170e-5a96-4e91-962e-d1ab2e2de76b" width="220" alt="Permissions 1" />
+<img src="https://github.com/user-attachments/assets/679a9610-4970-49b2-ade1-5c285a414663" width="220" alt="Permissions 2" />
 </p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/1de54aa7-0d2f-4590-a5c5-4c2cbfccd595" width="180" alt="Password Checker 1" />
-  <img src="https://github.com/user-attachments/assets/323fb427-0562-4298-9f73-75fd97555188" width="180" alt="Password Checker 2" />
-  <img src="https://github.com/user-attachments/assets/4e0e77eb-ed5e-456b-8a7e-b7d47c0cb06f" width="180" alt="Security Tips" />
+<img src="https://github.com/user-attachments/assets/954f51a2-b957-4c54-9435-972cd34c196c" width="220" alt="Network Security" />
+<img src="https://github.com/user-attachments/assets/5dfc85a1-1ec3-4406-b661-483a52f1e79d" width="220" alt="Password Strength" />
+<img src="https://github.com/user-attachments/assets/9491bae1-e0ab-4ce2-a417-00bd30b12162" width="220" alt="Security Tips" />
 </p>
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/3893f5d7-6f74-425c-8de7-0428fabf7d1f" width="220" alt="Alternative View" />
+</p>
+
+</details>
 
 👨‍💻 Developed by
 
