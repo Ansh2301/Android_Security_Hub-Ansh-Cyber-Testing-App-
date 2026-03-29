@@ -69,8 +69,8 @@ UI State Synchronization
 📸 App Screenshots
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/86c82ff1-d8a5-4e57-9689-b2c04bd1169" width="180" alt="Dashboard" />
-  <img src="https://github.com/user-attachments/assets/483378ad-3bee-4b0f-a421-90aab591c8ac" width="180" alt="Permissions 1" />
+ <img src="https://github.com/user-attachments/assets/86c82ff1-d8a5-4e57-9689-b2c04bd1169.png" width="180" alt="Dashboard" />
+ <img src="https://github.com/user-attachments/assets/483378ad-3bee-4b0f-a421-90aab591c8ac" width="180" alt="Permissions 1" />
   <img src="https://github.com/user-attachments/assets/080b2953-175f-4419-8d09-9965d1c2c2c4" width="180" alt="Permissions 2" />
   <img src="https://github.com/user-attachments/assets/3fda38cd-e80b-4f69-aaef-1549d1b7ee74" width="180" alt="Network Check" />
 </p>
