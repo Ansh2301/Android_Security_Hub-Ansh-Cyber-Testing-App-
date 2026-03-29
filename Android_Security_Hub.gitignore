@@ -1,0 +1,21 @@
+# Android Studio / IntelliJ
+.idea/
+.gradle/
+build/
+capture/
+*.iml
+.DS_Store
+
+# Local configuration
+local.properties
+
+# Log files
+*.log
+
+# APKs (You usually don't want these on GitHub, just the code)
+*.apk
+
+# Device/Emulator specific
+.cxx/
+*.keystore
+!debug.keystore
