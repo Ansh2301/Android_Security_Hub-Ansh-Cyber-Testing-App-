@@ -66,17 +66,19 @@ UI State Synchronization
 3.  Deploy: Run on an emulator or physical device (API 24+).
 4.  APK: A pre-compiled debug APK is available in the [Releases] (https://github.com/Ansh2301/Android_Security_Hub-Ansh-Cyber-Testing-App-) section.
 
-📸 Screenshots:
+📸 App Screenshots
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/86c82ff1-d8a5-4e57-9689-b2c04bd1169" width="200" />
-  <img src="https://github.com/user-attachments/assets/483378ad-3bee-4b0f-a421-90aab591c8ac" width="200" />
-  <img src="https://github.com/user-attachments/assets/080b2953-175f-4419-8d09-9965d1c2c2c4" width="200" />
+  <img src="https://github.com/user-attachments/assets/86c82ff1-d8a5-4e57-9689-b2c04bd1169" width="180" alt="Dashboard" />
+  <img src="https://github.com/user-attachments/assets/483378ad-3bee-4b0f-a421-90aab591c8ac" width="180" alt="Permissions 1" />
+  <img src="https://github.com/user-attachments/assets/080b2953-175f-4419-8d09-9965d1c2c2c4" width="180" alt="Permissions 2" />
+  <img src="https://github.com/user-attachments/assets/3fda38cd-e80b-4f69-aaef-1549d1b7ee74" width="180" alt="Network Check" />
 </p>
+
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/3fda38cd-e80b-4f69-aaef-1549d1b7ee74" width="200" />
-  <img src="https://github.com/user-attachments/assets/1de54aa7-0d2f-4590-a5c5-4c2cbfccd595" width="200" />
-  <img src="https://github.com/user-attachments/assets/323fb427-0562-4298-9f73-75fd97555188" width="200" />
+  <img src="https://github.com/user-attachments/assets/1de54aa7-0d2f-4590-a5c5-4c2cbfccd595" width="180" alt="Password Checker 1" />
+  <img src="https://github.com/user-attachments/assets/323fb427-0562-4298-9f73-75fd97555188" width="180" alt="Password Checker 2" />
+  <img src="https://github.com/user-attachments/assets/4e0e77eb-ed5e-456b-8a7e-b7d47c0cb06f" width="180" alt="Security Tips" />
 </p>
 
 👨‍💻 Developed by
