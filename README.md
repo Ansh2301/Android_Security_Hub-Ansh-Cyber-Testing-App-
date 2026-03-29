@@ -67,7 +67,6 @@ UI State Synchronization
 
 📸 App Screenshots
 
-📸 App Gallery
 <details>
 <summary><b>Click to view app screenshots</b></summary>
 
