@@ -11,22 +11,22 @@ This project is a comprehensive Android Cybersecurity Assistant designed to empo
 
 Audits all installed applications to identify potential privacy risks.
 
-  * **Technical Implementation**: Leverages the `Android PackageManager API` to query application metadata.
-  * **Insight**: Provides a transparent count of "Sensitive Permissions" (Camera, Location, Microphone) to help users identify over-privileged apps.
+  * echnical Implementation: Leverages the `Android PackageManager API` to query application metadata.
+  * Insight: Provides a transparent count of "Sensitive Permissions" (Camera, Location, Microphone) to help users identify over-privileged apps.
 
 2\. 🌐 Network Security Check
 
 Analyzes the current data connection to prevent data leakage on insecure networks.
 
-  * **Technical Implementation**: Utilizes `ConnectivityManager` and `NetworkCapabilities`.
-  * **Data Points**: Displays Network Type (Wi-Fi/Mobile), Connection Status, and Device IP Address.
+  * Technical Implementation: Utilizes `ConnectivityManager` and `NetworkCapabilities`.
+  * Data Points: Displays Network Type (Wi-Fi/Mobile), Connection Status, and Device IP Address.
 
 3\. 🔑 Password Strength Checker
 
 An interactive tool that evaluates user passwords against common entropy standards.
 
-  * **Visual Feedback**: Uses a dynamic color-coded system (Red/Yellow/Green) to categorize passwords as **Weak**, **Medium**, or **Strong**.
-  * **Logic**: Implemented custom heuristic analysis to check for length, character diversity, and complexity.
+  * Visual Feedback: Uses a dynamic color-coded system (Red/Yellow/Green) to categorize passwords as **Weak**, **Medium**, or **Strong**.
+  * Logic: Implemented custom heuristic analysis to check for length, character diversity, and complexity.
 
 4\. 💡 Security Tips Dashboard
 
@@ -65,6 +65,16 @@ UI State Synchronization
 2.  Sync: Open in Android Studio and Sync Gradle.
 3.  Deploy: Run on an emulator or physical device (API 24+).
 4.  APK: A pre-compiled debug APK is available in the [Releases] (https://github.com/Ansh2301/Android_Security_Hub-Ansh-Cyber-Testing-App-) section.
+
+📸 Screenshots:
+![WhatsApp Image 2026-03-30 at 1 28 15 A](https://github.com/user-attachments/assets/86c82ff1-d8a5-4e57-9689-b2c0d4bd1169)
+![WhatsApp Image 2026-03-30 at 1 28 15 AM (1)](https://github.com/user-attachments/assets/483378ad-3bee-4b0f-a421-90aab591c8ac)
+![WhatsApp Image 2026-03-30 at 1 28 15 AM (2)](https://github.com/user-attachments/assets/080b2953-175f-4419-8d09-9965d1c2c2c4)
+![WhatsApp Image 2026-03-30 at 1 28 16 AM](https://github.com/user-attachments/assets/3fda38cd-e80b-4f69-aaef-1549d1b7ee74)
+![WhatsApp Image 2026-03-30 at 1 28 16 AM (1)](https://github.com/user-attachments/assets/1de54aa7-0d2f-4590-a5c5-4c2cbfccd595)
+![WhatsApp Image 2026-03-30 at 1 28 16 AM (2)](https://github.com/user-attachments/assets/323fb427-0562-4298-9f73-75fd97555188)
+![WhatsApp Image 2026-03-30 at 1 28 17 AM](https://github.com/user-attachments/assets/4e0e77eb-ed5e-456b-8a7e-b7d47c0cb06f)
+
 
 👨‍💻 Developed by
 
