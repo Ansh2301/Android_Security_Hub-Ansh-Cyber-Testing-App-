@@ -1,5 +1,3 @@
-![WhatsApp Image 2026-03-30 at 1 28 15 AM](https://github.com/user-attachments/assets/b3be34f8-209c-4fe7-b00c-d17c8281e39d)
-
 🛡️Android_Security_Hub (Ansh-Cyber-Testing-App)
 
 📖 Overview
@@ -71,7 +69,6 @@ UI State Synchronization
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/86c82ff1-d8a5-4e57-9689-b2c04bd1169" width="180" alt="Dashboard" />
-  <img src="https://github.com/user-attachments/assets/483378ad-3bee-4b0f-a421-90aab591c8ac" width="180" alt="Permissions 1" />
   <img src="https://github.com/user-attachments/assets/080b2953-175f-4419-8d09-9965d1c2c2c4" width="180" alt="Permissions 2" />
   <img src="https://github.com/user-attachments/assets/a03dd36e-689c-4146-97e4-24c55f0e0c9e" width="180" alt="Network Status" />
 </p>
@@ -85,6 +82,3 @@ UI State Synchronization
 👨‍💻 Developed by
 
 Ansh Chaudhary — Aspiring Android Developer & Security Enthusiast
-
-![WhatsApp Image 2026-03-30 at 1 28 15 AM](https://github.com/user-attachments/assets/a03dd36e-689c-4146-97e4-24c55f0e0c9e)
-
