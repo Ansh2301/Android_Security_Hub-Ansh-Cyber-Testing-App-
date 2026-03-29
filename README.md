@@ -1,60 +1,71 @@
-# Android_Security_Hub-Ansh-Cyber-Testing-App-
 
-A modern, lightweight Android security utility built to provide users with real-time insights into their device's network safety and application privacy. This app serves as a centralized dashboard for auditing system permissions and monitoring connectivity.
+🛡️Android_Security_Hub (Ansh-Cyber-Testing-App)
 
-🚀 Features
+📖 Overview
 
-  * **Real-time Network Audit**: Detects the current connection type (Wi-Fi, Cellular, or Ethernet) and verifies actual internet reachability using low-level `NetworkCapabilities`.
-  * **Permission Scanner**: Automatically scans all installed applications to provide a total count of potential privacy touchpoints.
-  * **Modern UI/UX**: Built entirely with **Jetpack Compose** following Material Design 3 guidelines for a clean, responsive experience.
-  * **Safety First**: Designed with a "Zero-Permission" philosophy for the core app itself—it audits others without compromising your own data.
+This project is a comprehensive Android Cybersecurity Assistant designed to empower users with real-time device security insights. Developed as part of the internship assignment, the app focuses on four critical pillars: App Privacy, Network Integrity, Credential Strength, and Security Literacy.
 
-🛠️ Tech Stack
+🚀 Key Features
 
-  * Language: Kotlin
-  * UI Framework: Jetpack Compose (Material 3)
-  * Architecture: MVVM (Model-View-ViewModel) pattern
-  * Build System: Gradle Kotlin DSL (`.kts`)
-  * Minimum SDK: API 24 (Android 7.0+)
-  * Target SDK: API 34 (Android 14)
+1\. 🔍 App Permission Scanner
 
-📸 Screenshots
+Audits all installed applications to identify potential privacy risks.
 
-| Dashboard | App Scanner | Security Tips |
-| :--- | :--- | :--- |
-|  |  |  |
+  * **Technical Implementation**: Leverages the `Android PackageManager API` to query application metadata.
+  * **Insight**: Provides a transparent count of "Sensitive Permissions" (Camera, Location, Microphone) to help users identify over-privileged apps.
 
+2\. 🌐 Network Security Check
 
-🏗️ Project Structure
+Analyzes the current data connection to prevent data leakage on insecure networks.
 
-com.cybersecurity.app
-├── ui
-│   ├── theme       # Material 3 Color Schemes & Typography
-│   ├── screens     # Dashboard, Scanner, and Tips Composable screens
-│   └── navigation  # Compose Navigation graph
-└── utils
-    ├── NetworkUtils    # Logic for connectivity and capability checks
-    └── PermissionUtils # Logic for app scanning and permission auditing
+  * **Technical Implementation**: Utilizes `ConnectivityManager` and `NetworkCapabilities`.
+  * **Data Points**: Displays Network Type (Wi-Fi/Mobile), Connection Status, and Device IP Address.
 
-⚙️ Installation & Setup
+3\. 🔑 Password Strength Checker
 
-1.  Clone the repository:
-    ```bash
-    git clone https://github.com/YOUR_USERNAME/AnshCybersecurityApp.git
-    ```
-2.  Open in Android Studio:
-    File \> Open \> Select the project folder.
-3.  Sync Gradle:
-    Click the "Elephant" icon to sync the `build.gradle.kts` files.
-4.  Run:
-    Select your device/emulator and press the green **Run** button.
+An interactive tool that evaluates user passwords against common entropy standards.
 
-🛡️ License
-Distributed under the MIT License. See `LICENSE` for more information.
+  * **Visual Feedback**: Uses a dynamic color-coded system (Red/Yellow/Green) to categorize passwords as **Weak**, **Medium**, or **Strong**.
+  * **Logic**: Implemented custom heuristic analysis to check for length, character diversity, and complexity.
 
-How to use this:
+4\. 💡 Security Tips Dashboard
 
-1.  In Android Studio, right-click your **root project folder** (the very top one).
-2.  Select **New \> File** and name it `README.md`.
-3.  Paste the code above into that file and save it.
-4.  When you push to GitHub, this will automatically appear as your "Home Page."
+A curated educational hub featuring industry-standard best practices.
+
+  * Topics: 2FA (Two-Factor Authentication), Public Wi-Fi risks, and App Update hygiene.
+
+🛠️ Technology Stack & "The Why"
+
+  * Kotlin & Jetpack Compose: Chosen for a fully declarative UI approach. Compose allowed for rapid iteration of the Material 3 design and seamless state management for real-time network updates.
+  * Material Design 3 (M3): Used to ensure the app feels modern and "native" to the latest Android 14 environments.
+  * ConnectivityManager API: Selected over older deprecated libraries to ensure the app remains performant and future-proof on modern SDKs.
+
+🏗️ Architecture
+
+The app follows the MVVM (Model-View-ViewModel) pattern:
+
+  * UI (Compose): Observes state and handles user interaction.
+  * ViewModels: Manages the logic for permission scanning and password validation.
+  * Utils (Repository Layer): Interacts with Android System Services (Network/Package Manager).
+
+🧠 Technical Challenges & Solutions
+
+The "Unresolved Reference" Bug
+
+  * Problem: During development, the compiler intermittently failed to recognize `NETWORK_CAPABILITY_INTERNET` despite correct imports, likely due to a conflict between the Compose Compiler and older SDK references.
+  * Solution: I implemented a low-level integer mapping (Capability 12). This bypassed the high-level API "ghost" error and ensured the build was stable across all environments without sacrificing functionality. This demonstrated a deep-dive approach into how Android handles system constants.
+
+UI State Synchronization
+
+  * Problem: Updating the network status in real-time without draining the battery.
+  * Solution: Used `LaunchedEffect(Unit)` to trigger a single high-accuracy check upon screen entry, reducing unnecessary background polling.
+
+⚙️ How to Run
+1.  Clone: `git clone https://github.com/YOUR_USERNAME/AnshCybersecurityApp.git`
+2.  Sync: Open in Android Studio and Sync Gradle.
+3.  Deploy: Run on an emulator or physical device (API 24+).
+4.  APK: A pre-compiled debug APK is available in the [Releases] (https://github.com/Ansh2301/Android_Security_Hub-Ansh-Cyber-Testing-App-) section.
+
+👨‍💻 Developed by
+
+Ansh Chaudhary — Aspiring Android Developer & Security Enthusiast
